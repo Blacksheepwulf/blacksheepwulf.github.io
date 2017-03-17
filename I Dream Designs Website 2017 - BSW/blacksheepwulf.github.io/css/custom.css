@@ -1,0 +1,495 @@
+#bgSalmon {
+    background-color: #d40e52;
+   /*background-image: url('../images/BgFeatureSalmon.png');*/
+}
+
+#bgYellow {
+    background-color: #fcdf15;
+   /*background-image: url('../images/BgFeatureYellow.png');*/
+}
+
+#bgBlue {
+    background-color: #0b9bcc;
+   /*background-image: url('../images/BgFeatureBlue.png');*/
+}
+
+#bgBlack {
+    background-color: #3c3c3c;
+   
+}
+.smallbump{
+  padding-bottom:100px;
+}
+.smallbump1{
+  padding-bottom:150px;
+}
+.smallbump2{
+  padding-bottom:100px;
+}
+
+.timelapse {
+  z-index: -5;
+}
+
+.aboutBg {
+   position: absolute;
+                top: 0;
+                width: 1000px;
+                
+                z-index: -6;
+}
+
+.absecondBg {
+   position: absolute;
+                top: 0;
+                width: 100%;
+                height:100%;
+                z-index: -6;
+}
+
+.contactBg {
+   position: absolute;
+                top: 0;
+                width: 100%;
+               height:100%;
+                z-index: -6;
+}
+
+.overlaydot{
+
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+               
+                z-index: 3;
+
+}
+
+
+
+}
+.portBG {
+  width:100%;
+  height:1700px;
+}
+
+.portBG1 {
+  width: 100%;
+  height: 1800px;
+}
+
+.homepage {
+  font-family: 'Ubuntu', sans-serif;
+}
+.homepageAbout {
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+}
+
+.container p{
+  
+  font-size:16px;
+}
+
+.container h1{
+  font-size:45px;
+}
+
+.containerAbout h1 {
+    font-size: 45px;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.navbar-brand{
+  padding-top:0px;
+}
+
+#navbar-wrapper .container{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+
+
+}
+
+.text-muted{
+  font-size:40px;
+}
+.spaceIcon{
+      padding-top: 250px;
+      width: 350px;
+}
+
+.IconLogo2{
+  padding-top: 15px;
+}
+
+.IconLogo3{
+  position:fixed;
+  left: 45%;
+}
+.navbar{
+
+}
+.navbar-brand>img {
+    position: absolute;
+    display: block;
+}
+
+.arcadebtn{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+  padding:35px;
+}
+
+
+ .arcadebtn3{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+  }
+
+.arcadebtn1{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+  padding:35px;
+}
+
+.idreamh1{
+  font-size:45px;
+}
+.idreamP{
+  font-size:16px;
+  padding-bottom:15px;
+
+}
+
+.psIcon {
+    padding-top: 350px;
+    width: 200px;
+}
+
+.dividerGD{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.lead {
+  font-size:14px;
+  padding-bottom: 60px;
+  text-align:center;
+  color:white;
+  padding-bottom:10%;
+}
+
+.col-md-5 .fa-5x{
+    font-size:15em;
+    padding-top:350px;
+  }
+
+footer{
+  background-color:#3c3c3c;
+      padding-top: 150px;
+      padding-bottom: 30px;
+    bottom:0;
+}
+.aboutHeader{
+  color:white;
+  padding-bottom:10px;
+}
+
+video#aboutVideo { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -5;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+
+.aboutUsinfo{
+  position:absolute;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 1350px;
+}
+
+#bgSalmon .container .row .col-md-7 .fa-5x{
+  font-size: 12em;
+  margin-top:40px;
+}
+
+#bgYellow .container .row .col-md-7 .fa-5x{
+  font-size: 12em;
+}
+
+#bgBlue .container .row .col-md-7 .fa-5x{
+  font-size: 12em;
+  margin-top:40px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+  max-width:50%;
+}
+
+/* Responsive Styling */
+
+
+@media (max-width: 1400px){
+
+  .arcadebtn1{
+    margin-top: 30px;
+    padding-left: 230px;
+}
+
+  .arcadebtn{
+    margin-top: 30px;
+   padding-right: 200px;
+}
+
+@media (max-width: 1199px) {
+
+  .smallbump{
+  padding-bottom:100px;
+}
+.smallbump1{
+  padding-bottom:150px;
+}
+.smallbump2{
+  padding-bottom:100px;
+}
+
+  .container .row{
+    padding-bottom:30px;
+  }
+
+  .arcadebtn1{
+    margin-top: 30px;
+    padding-right:35px;
+    padding-top:35px;
+    padding-bottom:35px;
+    padding-left: 180px;
+  }
+
+  .arcadebtn{
+    margin-top: 50px;
+    padding-left:35px;
+    padding-top:35px;
+    padding-bottom:35px;
+    padding-right: 160px;
+  }
+
+ }
+
+@media (max-width: 991px) {
+
+  .smallbump{
+  padding-bottom:50px;
+}
+.smallbump1{
+  padding-bottom:150px;
+}
+.smallbump2{
+  padding-bottom:100px;
+}
+
+  .lead{
+    padding-bottom:10px;
+  }
+
+  .container .row{
+    padding-bottom:30px;
+  }
+
+  .arcadebtn1{
+    margin-top: 30px;
+   
+    padding-top: 0px;
+    padding:35px;
+  }
+
+  .arcadebtn{
+    margin-top: 0px;
+    padding:35px;
+    
+  }
+
+  .col-md-5 .fa-5x{
+    font-size:10em;
+    padding-top:0px;
+  }
+
+  .dividerGD{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .spaceIcon{
+    padding-top: 0px;
+    width: 210px;
+  }
+
+  .psIcon{
+    padding-top: 0px;
+    width: 150px;
+  }
+
+  .aboutFoot{
+    padding-top:180px;
+  }
+  .portFooter{
+    padding-top:250px;
+  }
+  .portBG{
+    height:2800px;
+  }
+  .portBG1{
+    height:2500px;
+  }
+ }
+
+@media (max-width: 767px) {
+
+
+.aboutBg {
+                z-index: 0;
+}
+
+.absecondBg {
+                z-index: -2;
+}
+
+.contactBg {
+                z-index: -2;
+}
+
+.smallbump{
+  padding-bottom:100px;
+}
+.smallbump1{
+  padding-bottom:160px;
+}
+.smallbump2{
+  padding-bottom:120px;
+}
+
+.IconLogo3{
+  width:75px;
+}
+.IconLogo2{
+  width:100px;
+}
+  #bgSalmon .container .row .col-md-7 .fa-5x{
+  font-size: 6em;
+  margin-top:40px;
+}
+
+#bgYellow .container .row .col-md-7 .fa-5x{
+  font-size: 6em;
+}
+
+#bgBlue .container .row .col-md-7 .fa-5x{
+  font-size: 6em;
+}
+
+
+
+  .container h1{
+    font-size:30px;
+  }
+
+  .container p{
+    font-size:12px;
+  }
+  .lead{
+    padding-bottom:10px;
+  }
+
+  .container .row{
+    padding-bottom:30px;
+  }
+
+  .arcadebtn1{
+    margin-top: 30px;
+  
+    padding-top: 0px;
+  }
+
+  .arcadebtn3{
+  
+    padding-bottom: 20px;
+  }
+
+  .arcadebtn{
+    margin-top: 0px;
+   
+  }
+
+  .col-md-5 .fa-5x{
+    font-size:10em;
+    padding-top:0px;
+  }
+
+  .dividerGD{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .spaceIcon{
+    padding-top: 0px;
+    width: 210px;
+  }
+
+  .text-muted{
+    font-size:20px;
+  }
+  .psIcon{
+    padding-top: 0px;
+    width: 100px;
+  }
+  .lead {
+    font-size:12px;
+  }
+  .containerAbout h1{
+    font-size: 30px;
+    padding-top: 20%;
+  
+  }
+  .portFooter{
+    padding-top:450px;
+  }
+  .portFooter1{
+    padding-top:470px;
+  }
+
+  .aboutFoot{
+    padding-top:180px;
+  }
+  .portBG{
+    height:2450px;
+  }
+  .portBG1{
+    height:2250px;
+  }
+ }
+
+ @media (min-width: 768px) and (max-width:950px) {
+  .IconLogo3{
+    left: 32%;
+  }
+
+}
